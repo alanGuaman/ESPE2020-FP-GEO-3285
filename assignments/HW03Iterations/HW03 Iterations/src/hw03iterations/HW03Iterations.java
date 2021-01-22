@@ -14,7 +14,6 @@ public class HW03Iterations {
     /**
      * @param args the command line arguments
      */
-    @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
         // TODO code application logic here
         
@@ -33,12 +32,12 @@ public class HW03Iterations {
         }
         
         System.out.println("Multiplication Tables : 12");
-        int top=12;
+        int top=20;
         int product = 0;
-        int table = 12;
+        int table = 20;
         for (int j = 1 ; j <= top ; j++){
             product = table * j;
-            System.out.println("12 * " + j + " = " + product);
+            System.out.println("20 * " + j + " = " + product);
         }
         
         System.out.println("downward collation Tables : 20 to 1");
