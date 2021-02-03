@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ws07menus;
-
+package hw05.factorialnumber;
+import java.util.Scanner;
 /**
  *
  * @author Personal
  */
-import java.util.Scanner;
-public class WS07Menus {
+public class HW05FactorialNumber {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // DONE
+        
         int factorial;
         int stop;
         int number;
@@ -25,22 +26,21 @@ public class WS07Menus {
 
 
         do {
-            System.out.println("Enter the factorial number you want to study:");
+            System.out.println("1. Enter the factorial number you want to study:");
             System.out.println("Note that if you insert a number less than 1 or greater than 15 it will not give you a result");
-            System.out.println(" 0 to exit  --> ");
+            System.out.println("2. 0 to exit  --> ");
 
             Scanner input = new Scanner(System.in);
             number = input.nextInt();
             
             if (factorial != 0) {
-                System.out.println("Studying the factorial number ---> " + factorial + " <----");
-                for (int i= number;  i > 1; i--) {
-                    stop =15;
+                System.out.println("Studying the factorial number ---> ");
+                for (int i= number;  i > 0; i--) {
                     factorial = factorial * i ;
                     System.out.println("the factorial of the number -->" + number + " = " + factorial );
-                    break;
                 }
             }
+            
 
         } while (factorial != 0);
 
