@@ -17,6 +17,7 @@ public class GuamanAlanExamUnit1 {
      */
     
     public static void main(String[] args) {
+        System.out.println(" ========= Author: Guamán Alan =======");
         Scanner input = new Scanner (System.in);
         boolean mainLoop = true;
         int option = 0;

@@ -1,0 +1,19 @@
+
+Adidas  , Black,40,150,false
+Nike , Green,39,20,false
+Converse  , Black,38,180,false
+Puma  , Coffee,40,250,false
+Nike , Black,40,260,false
+Nike , White,40,150,false
+Converse  , Coffee,39,180,false
+Converse  , Coffee,39,180,false
+Puma , Blue,38,200,false
+Reebok , White,37,90,false
+Adidas  , Black,39,125,false
+Adidas  , Black,39,125,false
+Converse , White,40,41,false
+Prma , White,40,160,false
+Puma , White,41,120,false
+Reebok , Black,39,150,false
+Nike , White,40,250,false
+Reebok , Black,39,280,false

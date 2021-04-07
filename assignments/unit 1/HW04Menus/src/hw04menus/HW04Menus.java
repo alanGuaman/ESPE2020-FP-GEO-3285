@@ -18,6 +18,7 @@ public class HW04Menus {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        System.out.println("  Author: Guamán Alan ");
         Scanner input = new Scanner(System.in);
         boolean mainLoop = true;
         int elección;
